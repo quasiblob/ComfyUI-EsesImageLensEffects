@@ -14,15 +14,15 @@ The **'Eses Image Lens Effects'** node is a multipurpose node for ComfyUI design
 
 * **Lens Distortion & Chromatic Aberration**:
     * A **`k1_master_distortion`** control sets the primary barrel (bulge) or pincushion (squeeze) distortion for the entire image.
-    * Channel-specific **`aberration`** sliders for Red, Green, and Blue act as offsets to the master distortion, creating controllable color fringing.
+    * Channel-specific **`aberration`** spinners for Red, Green, and Blue act as offsets to the master distortion, creating controllable color fringing.
     * A global **`radial_exponent`** parameter fine-tunes the distortion's profile, controlling how quickly the effect ramps up from the image center outwards.
 
 * **Post-Process Scaling**:
     * A **`post_process_scale`** slider allows for quick, centered zooming of the image.
     * This is suitable for cleanly cropping out the black areas or stretched pixels revealed at the edges by the lens distortion effect.
 
-* **Stylistic Vignette**:
-    * A powerful, mathematically stable vignette effect applied as the final step.
+* **Flexible Vignette**:
+    * A flexible vignette effect applied as the final step.
     * **`vignette_amount`**: Controls the intensity for both darkening (positive values) and lightening (negative values).
     * **`vignette_size`**: Adjusts the radius of the vignette, allowing it to cover more of the image or shrink into the corners.
     * **`vignette_falloff`**: Controls the hardness of the vignette's gradient curve.
@@ -46,9 +46,9 @@ The **'Eses Image Lens Effects'** node is a multipurpose node for ComfyUI design
 
 3.  **Install requirements (If needed):**
     * You likely already have `scikit-image` installed. If not, you can run the following command inside this node's directory:
-        ```
-        pip install -r requirements.txt
-        ```
+    ```
+    pip install -r requirements.txt
+    ```
 
 4.  **Restart ComfyUI:**
     * After restarting, the **"Eses Lens Effects"** node will be available in the **"Eses Nodes/Image Adjustments"** category.
@@ -57,10 +57,11 @@ The **'Eses Image Lens Effects'** node is a multipurpose node for ComfyUI design
 
 ```
 ComfyUI-EsesImageLensEffects/
+├── __init__.py            # ComfyUI node definition.
 ├── image_lens_effects.py  # The Python file containing the node logic.
 ├── README.md              # This file.
-└── docs/
-└── image.png              # Node screenshot.
+├── docs/
+└── examples/              # Node screenshots.
 ```
 
 
