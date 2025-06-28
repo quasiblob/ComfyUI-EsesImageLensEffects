@@ -2,6 +2,11 @@
 
 ![Eses Lens Effects Node Screenshot](docs/image_lens_effects.png)
 
+
+> [!CAUTION]
+> Before dowloading and using the contents of this repository, please read the LICENSE.txt and the disclaimer - Thank you!
+
+
 ## Description
 
 The **'Eses Image Lens Effects'** node is a multipurpose node for ComfyUI designed to simulate a variety of lens characteristics. It combines several typical effects into a single, convenient node, allowing to add realistic or stylistic lens distortion, chromatic aberration, post-process scaling, and a highly configurable vignette.
