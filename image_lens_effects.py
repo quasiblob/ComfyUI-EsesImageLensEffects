@@ -37,7 +37,7 @@
 # 'k1_..._aberration' sliders to introduce color fringing on top of the base
 # distortion.
 #
-# Version: 1.0.0
+# Version: 1.0.1
 #
 # License: See LICENSE.txt
 #

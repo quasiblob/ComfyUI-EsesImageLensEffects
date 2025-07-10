@@ -4,8 +4,9 @@
 
 
 > [!CAUTION]
-> Before dowloading and using the contents of this repository, please read the LICENSE.txt and the disclaimer.
-> If you do not respect my efforts, then these tool may not be available in the future (I will report misuse) - Thank you!
+> Before downloading and using the contents of this repository, please review the LICENSE.txt and the disclaimer.
+> I kindly ask that you respect the licensing terms and the effort put into these tools to ensure their 
+> continued availability for everyone. Thank you!
 
 
 ## Description
@@ -66,6 +67,7 @@ ComfyUI-EsesImageLensEffects/
 ├── __init__.py            # ComfyUI node definition.
 ├── image_lens_effects.py  # The Python file containing the node logic.
 ├── README.md              # This file.
+├── LICENSE.txt            # You should read this before using this node.
 ├── docs/
 └── examples/              # Node screenshots.
 ```
@@ -99,7 +101,9 @@ Eses Nodes/Image Adjustments
 
 ## Update History
 
-* **2025.06.27 Version 1.0.0**: Initial release.
+* **2025.7.10 Version 1.0.1**: minor updates to documentation
+
+* **2025.6.27 Version 1.0.0**: initial release
 
 
 ## ⚠️Disclaimer⚠️
